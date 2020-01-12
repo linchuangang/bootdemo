@@ -1,0 +1,577 @@
+[2020-01-10 11:34:53] 1575 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 6324 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 11:34:53] 1575 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 11:34:54] 3073 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[2020-01-10 11:34:54] 3088 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-01-10 11:34:54] 3088 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 11:34:54] 3088 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 11:34:54] 3213 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 11:34:54] 3213 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1560 ms
+[2020-01-10 11:34:55] 3463 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 11:34:55] 3634 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2020-01-10 11:34:55] 3681 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-01-10 11:34:55] 3681 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 3.24 seconds (JVM running for 5.135)
+[2020-01-10 11:35:53] 1575 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 1480 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 11:35:53] 1575 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 11:35:55] 2933 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 11:35:55] 2933 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 11:35:55] 2933 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 11:35:55] 2948 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 11:35:55] 3057 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 11:35:55] 3057 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1404 ms
+[2020-01-10 11:35:55] 3276 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 11:35:55] 3432 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 11:35:55] 3463 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 11:35:55] 3463 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 3.16 seconds (JVM running for 4.475)
+[2020-01-10 11:36:31] 39163 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 11:36:31] 39163 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 11:36:31] 39176 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+[2020-01-10 12:08:19] 3944 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 7968 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 12:08:19] 3951 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 12:08:21] 5699 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 12:08:21] 5714 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 12:08:22] 6320 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92ms. Found 0 Redis repository interfaces.
+[2020-01-10 12:08:22] 7101 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 12:08:22] 7117 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 12:08:22] 7149 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 12:08:23] 7411 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:08:23] 7426 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:08:23] 7442 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:08:23] 8143 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 12:08:24] 8175 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 12:08:24] 8175 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 12:08:24] 8175 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 12:08:24] 8497 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 12:08:24] 8497 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4455 ms
+[2020-01-10 12:08:24] 8621 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 12:08:24] 8668 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 12:09:02] 2767 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 3936 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 12:09:02] 2892 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 12:09:04] 5403 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 12:09:04] 5419 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 12:09:04] 5536 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 Redis repository interfaces.
+[2020-01-10 12:09:05] 6260 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 12:09:05] 6275 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 12:09:05] 6306 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 12:09:05] 6603 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:09:05] 6618 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:09:05] 6634 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:09:07] 8149 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 12:09:07] 8200 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 12:09:07] 8200 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 12:09:07] 8200 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 12:09:07] 8543 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 12:09:07] 8543 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5542 ms
+[2020-01-10 12:09:08] 8700 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 12:09:08] 8763 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 12:13:25] 3485 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 3660 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 12:13:25] 3485 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 12:13:28] 6449 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 12:13:28] 6465 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 12:13:29] 6574 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+[2020-01-10 12:13:29] 7292 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 12:13:29] 7307 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 12:13:29] 7323 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 12:13:30] 7573 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:13:30] 7588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:13:30] 7588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 12:13:30] 8176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 12:13:30] 8191 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 12:13:30] 8191 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 12:13:30] 8191 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 12:13:30] 8488 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 12:13:30] 8488 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4753 ms
+[2020-01-10 12:13:31] 8644 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 12:13:31] 8691 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 13:52:52] 1810 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 5720 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 13:52:52] 1810 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 13:52:53] 2956 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 13:52:53] 2956 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 13:52:53] 3018 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+[2020-01-10 13:52:53] 3425 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 13:52:53] 3425 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 13:52:53] 3441 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 13:52:54] 3612 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 13:52:54] 3628 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 13:52:54] 3628 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 13:52:54] 4051 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 13:52:54] 4067 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 13:52:54] 4067 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 13:52:54] 4067 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 13:52:54] 4254 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 13:52:54] 4254 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2241 ms
+[2020-01-10 13:52:54] 4334 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 13:52:54] 4365 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 16:34:21] 2560 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 1712 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 16:34:21] 2567 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 16:34:22] 3856 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 16:34:22] 3862 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 16:34:22] 3925 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+[2020-01-10 16:34:23] 4317 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 16:34:23] 4331 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 16:34:23] 4342 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 16:34:23] 4508 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:34:23] 4520 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:34:23] 4523 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:34:23] 4918 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 16:34:23] 4934 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 16:34:23] 4935 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 16:34:23] 4935 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 16:34:23] 5124 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 16:34:23] 5125 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2457 ms
+[2020-01-10 16:34:23] 5215 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 16:34:23] 5243 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 16:40:49] 2165 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 7568 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 16:40:49] 2237 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 16:40:50] 3230 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 16:40:50] 3233 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 16:40:50] 3275 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+[2020-01-10 16:40:51] 3775 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 16:40:51] 3808 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 16:40:51] 3827 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 16:40:51] 4027 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:40:51] 4042 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:40:51] 4045 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:40:51] 4442 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 16:40:51] 4474 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 16:40:51] 4475 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 16:40:51] 4476 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 16:40:52] 4709 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 16:40:52] 4709 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2390 ms
+[2020-01-10 16:40:52] 4787 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 16:40:52] 4815 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 16:44:00] 4123 [main] INFO  c.l.b.BootDemoApplicationTests - Starting BootDemoApplicationTests on SKY-20171203IDL with PID 8912 (started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 16:44:00] 4127 [main] INFO  c.l.b.BootDemoApplicationTests - No active profile set, falling back to default profiles: default
+[2020-01-10 16:44:02] 6472 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 16:44:02] 6480 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 16:44:02] 6550 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+[2020-01-10 16:44:04] 7913 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 16:44:04] 7940 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 16:44:04] 8247 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 16:44:05] 8761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:44:05] 9558 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:44:05] 9635 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:44:05] 9644 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:44:06] 9894 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 16:45:40] 2651 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 8524 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 16:45:40] 2655 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 16:45:43] 4861 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 16:45:43] 4866 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 16:45:43] 4912 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+[2020-01-10 16:45:43] 5710 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 16:45:43] 5730 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 16:45:43] 5745 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 16:45:44] 5961 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:45:44] 6072 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:45:44] 6086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:45:44] 6088 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:45:44] 6623 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 16:45:44] 6646 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 16:45:44] 6647 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 16:45:44] 6649 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 16:45:45] 7021 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 16:45:45] 7021 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4297 ms
+[2020-01-10 16:45:45] 7207 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 16:45:45] 7254 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 16:48:26] 2183 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 1596 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 16:48:26] 2188 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 16:48:27] 3372 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 16:48:27] 3377 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 16:48:27] 3449 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+[2020-01-10 16:48:28] 4010 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 16:48:28] 4024 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 16:48:28] 4037 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 16:48:28] 4238 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:28] 4317 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:28] 4335 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:28] 4339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:29] 4858 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 16:48:29] 4876 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 16:48:29] 4877 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 16:48:29] 4877 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 16:48:29] 5143 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 16:48:29] 5144 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2865 ms
+[2020-01-10 16:48:30] 5903 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 16:48:30] 5928 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 16:48:52] 2406 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 7496 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 16:48:52] 2411 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 16:48:54] 3824 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 16:48:54] 3829 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 16:48:54] 3905 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 Redis repository interfaces.
+[2020-01-10 16:48:54] 4437 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 16:48:54] 4459 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 16:48:54] 4472 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 16:48:54] 4659 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:55] 4735 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:55] 4752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:55] 4756 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 16:48:55] 5291 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 16:48:55] 5310 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 16:48:55] 5311 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 16:48:55] 5312 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 16:48:55] 5572 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 16:48:55] 5572 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2892 ms
+[2020-01-10 16:48:57] 6689 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 16:48:58] 7997 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 16:48:58] 8112 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 16:48:58] 8113 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 16:48:58] 8114 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 16:48:58] 8130 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 16:48:58] 8177 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 16:48:58] 8184 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 7.801 seconds (JVM running for 9.744)
+[2020-01-10 17:10:33] 3032 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 8288 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:10:33] 3037 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:10:34] 4257 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:10:34] 4261 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:10:34] 4314 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:10:35] 4757 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:10:35] 4773 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:10:35] 4784 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:10:35] 4950 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:10:35] 5002 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:10:35] 5012 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:10:35] 5014 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:10:36] 5409 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:10:36] 5422 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:10:36] 5423 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:10:36] 5423 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:10:36] 5623 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:10:36] 5623 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2490 ms
+[2020-01-10 17:10:37] 6350 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:10:37] 7094 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:10:37] 7154 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:10:37] 7154 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:10:37] 7154 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:10:37] 7164 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:10:37] 7190 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:10:37] 7194 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 6.353 seconds (JVM running for 10.741)
+[2020-01-10 17:12:24] 113639 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:12:24] 113639 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:12:24] 113656 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+[2020-01-10 17:14:12] 2128 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 3480 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:14:12] 2132 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:14:14] 3180 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:14:14] 3184 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:14:14] 3237 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:14:14] 3600 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:14:14] 3611 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:14:14] 3621 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:14:14] 3752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:14:14] 3805 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:14:14] 3816 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:14:14] 3819 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:14:15] 4208 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:14:15] 4220 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:14:15] 4221 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:14:15] 4221 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:14:15] 4406 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:14:15] 4407 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2187 ms
+[2020-01-10 17:14:16] 5186 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:14:16] 6048 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:14:16] 6143 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:14:16] 6143 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:14:16] 6143 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:14:16] 6154 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:14:17] 6196 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:14:17] 6200 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 5.924 seconds (JVM running for 7.512)
+[2020-01-10 17:14:40] 29756 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:14:40] 29757 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:14:40] 29774 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+[2020-01-10 17:16:10] 2947 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 3564 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:16:10] 2955 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:16:12] 4152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:16:12] 4156 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:16:12] 4213 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:16:12] 4618 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:16:12] 4628 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:16:12] 4637 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:16:12] 4774 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:16:12] 4830 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:16:12] 4842 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:16:12] 4845 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:16:13] 5210 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:16:13] 5222 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:16:13] 5223 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:16:13] 5223 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:16:13] 5421 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:16:13] 5422 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2365 ms
+[2020-01-10 17:16:14] 6272 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:16:14] 7053 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:16:15] 7124 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:16:15] 7124 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:16:15] 7125 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:16:15] 7135 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:16:15] 7168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:16:15] 7172 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 6.539 seconds (JVM running for 8.916)
+[2020-01-10 17:16:36] 28351 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:16:36] 28351 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:16:36] 28362 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[2020-01-10 17:24:47] 1887 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 5080 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:24:47] 1898 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:24:48] 3144 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:24:48] 3148 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:24:48] 3235 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:24:49] 3616 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:24:49] 3626 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:24:49] 3636 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:24:49] 3780 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:24:49] 3865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:24:49] 3877 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:24:49] 3881 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:24:50] 4795 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:24:50] 4811 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:24:50] 4812 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:24:50] 4813 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:24:50] 5051 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:24:50] 5051 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2898 ms
+[2020-01-10 17:24:51] 5811 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:24:52] 6649 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:24:52] 6722 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:24:52] 6723 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:24:52] 6723 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:24:52] 6733 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:24:52] 6768 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:24:52] 6772 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 6.422 seconds (JVM running for 8.018)
+[2020-01-10 17:24:55] 10365 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:24:55] 10365 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:24:55] 10376 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+[2020-01-10 17:27:07] 1998 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 7176 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:27:07] 2004 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:27:08] 2950 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:27:08] 2956 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:27:08] 3022 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:27:08] 3389 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:27:08] 3399 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:27:08] 3409 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:27:08] 3539 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:27:08] 3593 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:27:08] 3615 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:27:08] 3619 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:27:09] 4015 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:27:09] 4027 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:27:09] 4028 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:27:09] 4029 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:27:09] 4234 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:27:09] 4234 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2144 ms
+[2020-01-10 17:27:09] 4678 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2020-01-10 17:27:09] 4692 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-01-10 17:29:08] 1981 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 8896 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:29:08] 1986 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:29:09] 3025 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:29:09] 3029 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:29:09] 3094 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:29:10] 3634 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:29:10] 3650 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:29:10] 3663 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:29:10] 3817 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:29:10] 3899 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:29:10] 3914 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:29:10] 3917 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:29:11] 4329 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:29:11] 4346 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:29:11] 4347 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:29:11] 4348 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:29:11] 4548 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:29:11] 4549 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2465 ms
+[2020-01-10 17:29:12] 5384 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:29:13] 6311 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:29:13] 6395 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:29:13] 6395 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:29:13] 6395 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:29:13] 6407 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:29:13] 6447 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:29:13] 6452 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 5.975 seconds (JVM running for 7.708)
+[2020-01-10 17:29:18] 11593 [http-nio-8091-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:29:18] 11593 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:29:18] 11605 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+[2020-01-10 17:30:39] 1988 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 5984 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:30:39] 1994 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:30:40] 3012 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:30:40] 3015 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:30:40] 3080 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:30:41] 3450 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:30:41] 3460 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:30:41] 3470 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:30:41] 3620 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:30:41] 3684 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:30:41] 3696 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:30:41] 3699 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:30:42] 4131 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:30:42] 4149 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:30:42] 4150 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:30:42] 4150 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:30:42] 4375 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:30:42] 4376 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2309 ms
+[2020-01-10 17:30:43] 5161 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:30:43] 6010 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:30:43] 6090 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:30:43] 6090 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:30:43] 6091 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:30:44] 6102 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:30:44] 6149 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:30:44] 6155 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 5.858 seconds (JVM running for 7.491)
+[2020-01-10 17:30:58] 20493 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:30:58] 20493 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:30:58] 20504 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[2020-01-10 17:38:05] 2105 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 8168 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:38:05] 2111 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:38:06] 3303 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:38:06] 3307 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:38:06] 3352 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:38:07] 3775 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:38:07] 3786 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:38:07] 3797 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:38:07] 3938 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:38:07] 4004 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:38:07] 4018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:38:07] 4021 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:38:07] 4389 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:38:07] 4404 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:38:07] 4405 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:38:07] 4405 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:38:07] 4609 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:38:07] 4609 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2391 ms
+[2020-01-10 17:38:08] 5414 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:38:09] 6183 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:38:09] 6259 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:38:09] 6260 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:38:09] 6260 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:38:09] 6271 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:38:09] 6313 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:38:09] 6318 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 5.955 seconds (JVM running for 7.622)
+[2020-01-10 17:38:13] 10646 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:38:13] 10646 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:38:13] 10656 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[2020-01-10 17:38:30] 26975 [http-nio-8091-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2020-01-10 17:38:30] 27259 [http-nio-8091-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2020-01-10 17:40:16] 1938 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 8540 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:40:16] 1943 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:40:17] 2927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:40:17] 2931 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:40:17] 2979 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:40:17] 3343 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:40:17] 3354 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:40:17] 3365 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:40:18] 3522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:40:18] 3592 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:40:18] 3608 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:40:18] 3612 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:40:18] 3993 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:40:18] 4006 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:40:18] 4007 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:40:18] 4007 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:40:18] 4195 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:40:18] 4195 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2174 ms
+[2020-01-10 17:40:19] 4902 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:40:20] 5708 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:40:20] 5777 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:40:20] 5778 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:40:20] 5778 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:40:20] 5788 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:40:20] 5823 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:40:20] 5827 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 5.491 seconds (JVM running for 7.134)
+[2020-01-10 17:40:31] 16839 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:40:31] 16840 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:40:31] 16851 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+[2020-01-10 17:40:31] 16927 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2020-01-10 17:40:31] 17136 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2020-01-10 17:42:06] 1943 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 7512 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 17:42:06] 1947 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 17:42:07] 2886 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 17:42:07] 2890 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 17:42:07] 2937 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+[2020-01-10 17:42:07] 3308 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 17:42:07] 3318 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 17:42:07] 3327 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 17:42:07] 3460 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:42:07] 3515 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:42:07] 3532 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:42:07] 3535 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 17:42:08] 3903 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 17:42:08] 3921 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:42:08] 3922 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 17:42:08] 3923 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 17:42:08] 4129 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 17:42:08] 4130 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2109 ms
+[2020-01-10 17:42:09] 4838 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 17:42:10] 5716 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 17:42:10] 5787 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 17:42:10] 5788 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 17:42:10] 5788 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 17:42:10] 5798 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 17:42:10] 5830 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 17:42:10] 5835 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 5.462 seconds (JVM running for 7.119)
+[2020-01-10 17:42:15] 10798 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 17:42:15] 10798 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 17:42:15] 10809 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+[2020-01-10 17:42:15] 10879 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2020-01-10 17:42:15] 11071 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2020-01-10 18:25:02] 2194 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 2044 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 18:25:02] 2201 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 18:25:04] 3393 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 18:25:04] 3399 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 18:25:04] 3484 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+[2020-01-10 18:25:04] 3888 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 18:25:04] 3903 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 18:25:04] 4072 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 18:25:04] 4250 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:04] 4312 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:05] 4332 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:05] 4336 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:05] 4768 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 18:25:05] 4788 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 18:25:05] 4789 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 18:25:05] 4789 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 18:25:05] 5008 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 18:25:05] 5008 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2695 ms
+[2020-01-10 18:25:06] 6197 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 18:25:22] 1935 [main] INFO  c.lin.bootdemo.BootDemoApplication - Starting BootDemoApplication on SKY-20171203IDL with PID 7992 (E:\shutu\boot-demo\target\classes started by Administrator in E:\shutu\boot-demo)
+[2020-01-10 18:25:22] 1940 [main] INFO  c.lin.bootdemo.BootDemoApplication - No active profile set, falling back to default profiles: default
+[2020-01-10 18:25:22] 2771 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-01-10 18:25:22] 2774 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-01-10 18:25:22] 2837 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+[2020-01-10 18:25:23] 3225 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-01-10 18:25:23] 3236 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-01-10 18:25:23] 3247 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-01-10 18:25:23] 3384 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:23] 3442 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:23] 3454 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:23] 3457 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-01-10 18:25:23] 3837 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+[2020-01-10 18:25:23] 3849 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+[2020-01-10 18:25:23] 3850 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2020-01-10 18:25:23] 3851 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2020-01-10 18:25:24] 4120 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2020-01-10 18:25:24] 4121 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2112 ms
+[2020-01-10 18:25:25] 4945 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-01-10 18:25:25] 5801 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2020-01-10 18:25:26] 5913 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-01-10 18:25:26] 5914 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'boot-demo.errorChannel' has 1 subscriber(s).
+[2020-01-10 18:25:26] 5915 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+[2020-01-10 18:25:26] 5929 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+[2020-01-10 18:25:26] 5991 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+[2020-01-10 18:25:26] 5998 [main] INFO  c.lin.bootdemo.BootDemoApplication - Started BootDemoApplication in 5.417 seconds (JVM running for 7.742)
+[2020-01-10 18:30:13] 293647 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-01-10 18:30:13] 293648 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2020-01-10 18:30:13] 293684 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+[2020-01-10 18:30:13] 293757 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2020-01-10 18:30:14] 293994 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

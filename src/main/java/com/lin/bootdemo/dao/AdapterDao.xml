@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lin.bootdemo.dao.AdapterDao">
+
+
+    <sql id="findColumn">
+        select
+            id as id,
+            name as name,
+            factory_id as factoryId,
+            version as version,
+            agent_id as agentId,
+            create_time as createTime,
+            modify_time as modifyTime
+        from adapter
+    </sql>
+
+    <sql id="findCondition">
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null">
+                and name = #{name}
+            </if>
+            <if test="factoryId != null">
+                and factory_id = #{factoryId}
+            </if>
+            <if test="agentId != null">
+                and agent_id = #{agentId}
+            </if>
+            <if test="version != null">
+                and version = #{version}
+            </if>
+            <if test="createTime != null">
+                and create_time = #{createTime}
+            </if>
+        </where>
+    </sql>
+
+    <sql id="findConditionWithPage">
+        <where>
+            <if test="param1.id != null">
+                and id = #{param1.id}
+            </if>
+            <if test="param1.name != null">
+                and name = #{param1.name}
+            </if>
+            <if test="param1.factoryId != null">
+                and factory_id = #{param1.factoryId}
+            </if>
+            <if test="param1.version != null">
+                and version = #{param1.version}
+            </if>
+            <if test="param1.agentId != null">
+                and agent_id = #{param1.agentId}
+            </if>
+            <if test="param1.createTime != null">
+                and create_time = #{param1.createTime}
+            </if>
+        </where>
+    </sql>
+
+    <sql id="findByIds">
+        <include refid="findColumn"/>
+        where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </sql>
+
+    <select id="find" parameterType="integer" resultType="Adapter">
+        <include refid="findColumn"/>
+        where id = #{id}
+    </select>
+
+    <select id="findByIds" resultType="Adapter">
+        <include refid="findByIds"/>
+    </select>
+
+    <select id="findMap" resultType="Adapter">
+        <include refid="findByIds"/>
+    </select>
+
+    <select id="findByEntity" parameterType="Adapter" resultType="Adapter">
+        <include refid="findColumn"/>
+        <include refid="findCondition"/>
+    </select>
+
+    <select id="findByEntityWithPage" parameterType="map" resultType="Adapter">
+        <include refid="findColumn"/>
+        <include refid="findConditionWithPage"/>
+    </select>
+
+    <select id="findByParam" parameterType="map" resultType="Adapter">
+        <include refid="findColumn"/>
+        <!-- 这里故意返回空列表，使用此方法前请先根据实际业务修改下面的条件 -->
+        where 1 = 0;
+    </select>
+
+    <select id="findByParamWithPage" parameterType="map" resultType="Adapter">
+        <include refid="findColumn"/>
+        <!-- 这里故意返回空列表，使用此方法前请先根据实际业务修改下面的条件 -->
+        where 1 = 0;
+    </select>
+
+    <insert id="insert" parameterType="Adapter" useGeneratedKeys="true" keyProperty="id">
+        insert into adapter(
+            name,
+            factory_id,
+            version,
+            agent_id,
+            create_time)
+        values(
+            #{name},
+            #{factoryId},
+            #{version},
+            #{agentId},
+            #{createTime})
+    </insert>
+
+    <update id="update" parameterType="Adapter">
+        update adapter
+        set
+            name = #{name},
+            factory_id = #{factoryId},
+            version = #{version},
+            agent_id = #{agentId},
+            create_time = #{createTime}
+        where id = #{id}
+    </update>
+
+    <update id="updateIfPossible" parameterType="Adapter">
+        update adapter
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="factoryId != null">factory_id = #{factoryId},</if>
+            <if test="version != null">version = #{version},</if>
+            <if test="agentId != null">agent_id = #{agentId},</if>
+            <if test="createTime != null">create_time = #{createTime}</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+        delete from adapter where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

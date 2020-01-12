@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: boot-demo
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.101.39:3306/fiwebdb?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=round&allowMultiQueries=true
+    username: inrevo
+    password: 12345678
+    hikari:
+      auto-commit: true
+      maximum-pool-size: 15
+      max-lifetime: 930000
+
+logging:
+  config: classpath:config/logback-spring.xml
+  level:
+     com.lin: debug
+server:
+  port: 8091
+
+
+#mybatis
+mybatis:
+  mapper-locations: classpath:com/lin/bootdemo/dao/*.xml
+  type-aliases-package: com.lin.bootdemo.model
+  configuration:
+    default-enum-type-handler: com.lin.bootdemo.common.handler.CommonEnumHandler
+  type-handlers-package: com.lin.bootdemo.common.handler

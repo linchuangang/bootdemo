@@ -1,0 +1,21 @@
+[2020-01-10 17:24:47] 1896 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 17:27:07] 2003 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 17:29:08] 1985 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 17:30:39] 1993 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 17:38:05] 2110 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 17:38:30] 27267 [http-nio-8091-exec-2] DEBUG c.l.b.dao.AdapterDao.findByIds - ==>  Preparing: select id as id, name as name, factory_id as factoryId, version as version, agent_id as agentId, create_time as createTime, modify_time as modifyTime from adapter where id in ( ? ) 
+[2020-01-10 17:38:30] 27298 [http-nio-8091-exec-2] DEBUG c.l.b.dao.AdapterDao.findByIds - ==> Parameters: 1(String)
+[2020-01-10 17:38:30] 27338 [http-nio-8091-exec-2] DEBUG c.l.b.dao.AdapterDao.findByIds - <==      Total: 1
+[2020-01-10 17:40:16] 1942 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 17:40:31] 17143 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - ==>  Preparing: select id as id, name as name, factory_id as factoryId, version as version, agent_id as agentId, create_time as createTime, modify_time as modifyTime from adapter where id in ( ? ) 
+[2020-01-10 17:40:31] 17176 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - ==> Parameters: 1(String)
+[2020-01-10 17:40:31] 17209 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - <==      Total: 1
+[2020-01-10 17:42:06] 1946 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 17:42:15] 11078 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - ==>  Preparing: select id as id, name as name, factory_id as factoryId, version as version, agent_id as agentId, create_time as createTime, modify_time as modifyTime from adapter where id in ( ? ) 
+[2020-01-10 17:42:15] 11106 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - ==> Parameters: 1(String)
+[2020-01-10 17:42:15] 11137 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - <==      Total: 1
+[2020-01-10 18:25:02] 2200 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 18:25:22] 1940 [main] DEBUG c.lin.bootdemo.BootDemoApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+[2020-01-10 18:30:14] 294001 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - ==>  Preparing: select id as id, name as name, factory_id as factoryId, version as version, agent_id as agentId, create_time as createTime, modify_time as modifyTime from adapter where id in ( ? ) 
+[2020-01-10 18:30:14] 294032 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - ==> Parameters: 1(String)
+[2020-01-10 18:30:14] 294069 [http-nio-8091-exec-1] DEBUG c.l.b.dao.AdapterDao.findByIds - <==      Total: 1
