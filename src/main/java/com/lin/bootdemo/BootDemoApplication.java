@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @MapperScan(value = {"com.lin.bootdemo.dao"})
-@ComponentScan(value = {"com.lin.bootdemo.service","com.lin.bootdemo.controller"})
+@ComponentScan(value = {"com.lin.bootdemo.service","com.lin.bootdemo.controller"})//不配也可以
 public class BootDemoApplication {
 
     public static void main(String[] args) {
