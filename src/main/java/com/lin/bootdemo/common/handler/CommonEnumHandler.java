@@ -14,11 +14,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @author gd
- * @Date 2019/11/27 20:58
- * @Description work region type handler
- */
+
 @MappedTypes({BaseEnum.class})
 public class CommonEnumHandler<E extends Enum<E> & BaseEnum> extends BaseTypeHandler<E> {
 

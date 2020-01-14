@@ -29,6 +29,7 @@ server:
 mybatis:
   mapper-locations: classpath:com/lin/bootdemo/dao/*.xml
   type-aliases-package: com.lin.bootdemo.model
+#  返回枚举配置
   configuration:
     default-enum-type-handler: com.lin.bootdemo.common.handler.CommonEnumHandler
   type-handlers-package: com.lin.bootdemo.common.handler
