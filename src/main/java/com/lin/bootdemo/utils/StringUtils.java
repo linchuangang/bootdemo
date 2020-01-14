@@ -1,8 +1,6 @@
 package com.lin.bootdemo.utils;
 
-import com.inrevo.shared.framework.utils.IdentityUtils;
-import com.inrevo.shared.framework.utils.URLUtils;
-import org.apache.commons.collections.MapUtils;
+
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 
@@ -246,17 +244,6 @@ public abstract class StringUtils extends org.apache.commons.lang3.StringUtils {
         return isRegexMatch(str, REGEX_FIXEDPHONE);
     }
 
-    /**
-     * 是否为身份证号码。
-     *
-     * @param 字符串
-     * @return 若是合法的身份证号码返回 <code>true</code>, 否则返回 <code>false</code>.
-     */
-    public static boolean isIdentification(String IDStr) {
-        String errorInfo = IdentityUtils.IDCardValidate(IDStr);
-
-        return StringUtils.isBlank(errorInfo);
-    }
 
     /**
      * 判断是否是合法的邮编，判断标准是 6 位全数字。
@@ -437,49 +424,6 @@ public abstract class StringUtils extends org.apache.commons.lang3.StringUtils {
         return result;
     }
 
-    /**
-     * 把所有参数按照 key 的字典顺序排序，并按照“参数=参数值”的模式用“&”字符拼接成字符串。其中对参数值会进行 URL 编码。
-     *
-     * @param params 需要排序并参与字符拼接的参数
-     * @return 拼接后的字符串
-     */
-    public static String createSortedQueryString(Map<String, String> params) {
-        return createSortedQueryString(params, true);
-    }
-
-    /**
-     * 把所有参数按照 key 的字典顺序排序，并按照“参数=参数值”的模式用“&”字符拼接成字符串。
-     *
-     * @param params           需要排序并参与字符拼接的参数
-     * @param encodeParamValue 是否对参数值进行 URL 编码
-     * @return 拼接后的字符串
-     */
-    public static String createSortedQueryString(Map<String, String> params, boolean encodeParamValue) {
-        if (MapUtils.isEmpty(params)) {
-            return EMPTY;
-        }
-
-        List<String> keys = new ArrayList<String>(params.keySet());
-        Collections.sort(keys);
-
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < keys.size(); i++) {
-            String key = keys.get(i);
-            String value = params.get(key);
-
-            if (encodeParamValue) {
-                value = URLUtils.encode(value, "utf-8");
-            }
-
-            if (i == keys.size() - 1) { // 拼接时，不包括最后一个&字符
-                sb.append(key + "=" + value);
-            } else {
-                sb.append(key + "=" + value + "&");
-            }
-        }
-
-        return sb.toString();
-    }
 
     /**
      * 判断 value 的值是否表示条件为真。例子：
@@ -781,7 +725,6 @@ public abstract class StringUtils extends org.apache.commons.lang3.StringUtils {
     /**
      * 生成随机密码
      *
-     * @param pwd_len 生成的密码的总长度
      * @return 密码的字符串
      */
     public static String randomPassword(int pwdLen) {

@@ -4,11 +4,10 @@
  */
 package com.lin.bootdemo.service.impl;
 
-import com.inrevo.shared.framework.common.mybatis.Pagination;
+
 import com.lin.bootdemo.dao.AdapterDao;
 import com.lin.bootdemo.model.Adapter;
 import com.lin.bootdemo.service.AdapterService;
-import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -59,15 +58,13 @@ public class AdapterServiceImpl implements AdapterService {
 
     @Override
     public void updateAgentIdWithList(List<Adapter> adapters, int agentId) {
-        if (CollectionUtils.isNotEmpty(adapters)) {
-            adapters.forEach(item -> {
-                Adapter adapter = new Adapter();
-                adapter.setAgentId(agentId);
-                adapter.setId(item.getId());
+        adapters.forEach(item -> {
+            Adapter adapter = new Adapter();
+            adapter.setAgentId(agentId);
+            adapter.setId(item.getId());
 
-                modifyAdapter(adapter);
-            });
-        }
+            modifyAdapter(adapter);
+        });
     }
 
     @Override

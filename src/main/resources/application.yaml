@@ -1,3 +1,4 @@
+#database
 spring:
   application:
     name: boot-demo
@@ -11,10 +12,15 @@ spring:
       maximum-pool-size: 15
       max-lifetime: 930000
 
+#log
 logging:
   config: classpath:config/logback-spring.xml
   level:
+#     com.lin: info
      com.lin: debug
+
+
+#server
 server:
   port: 8091
 

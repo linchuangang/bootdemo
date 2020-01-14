@@ -6,9 +6,9 @@ package com.lin.bootdemo.dao;
 
 
 
-import com.inrevo.shared.framework.common.annotation.MyBatisRepository;
-import com.inrevo.shared.framework.common.mybatis.MyBatisBasicDao;
+import com.lin.bootdemo.common.mybatis.MyBatisBasicDao;
 import com.lin.bootdemo.model.Adapter;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import java.util.List;
  *
  * @author (Inrevo Code Generator)
  */
-@MyBatisRepository
+@Repository
 public interface AdapterDao extends MyBatisBasicDao<Adapter> {
     List<Adapter> findByIds(String[] ids);
 }
